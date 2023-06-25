@@ -1,0 +1,155 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.top {
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 8px;
+}
+
+#headerlogotext {
+    font-size: 24px;
+    padding-left: 20%;
+}
+
+#heromaintext {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#doggo {
+    margin-top: 4%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav {
+    display: flex;
+    margin: 27px;
+    padding-top: 10px;
+    padding-right: 20%;
+    gap: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#herosecondarytext {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+}
+
+button {
+    color: #F9FAF8;
+    border-radius: 7px;
+    background-color: #3882F6;
+    padding: 0px;
+    position: relative;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
+}
+
+.informationheader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.centerimages {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 115px;
+}
+  
+.info {
+max-width: 100px;
+}
+
+figure {
+    width: 100%;
+    background-color: #E5E7EB;
+    margin: 0px;
+    padding: 5%;
+    padding-left: 0%;
+}
+
+#quotetext {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+figcaption {
+    display: flex;
+    justify-content: right;
+    padding-right: 27%;
+    font-size: 36px;
+    font-style: bold;
+    color: #1F2937;
+}
+
+.theend {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    width: 70%;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.action {
+    text-align: left;
+}
+
+.button {
+    text-align: right;
+}
+
+footer {
+    color: #F9FAF8;
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+}
